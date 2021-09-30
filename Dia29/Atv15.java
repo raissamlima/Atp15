@@ -16,7 +16,7 @@ class Atv15 {
         imprimir(p2);
     }
     static void imprimir(Pessoa p) {
-        System.out.printf(p.nome);
+        System.out.printf(p.nome );
         System.out.println(p.sobrenome);
         System.out.println(p.idade);
     }
