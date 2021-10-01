@@ -4,12 +4,12 @@ public class Atv16 {
     public static void main(String[] args) {
         CalculadoraTaxas calculadora = new CalculadoraTaxas();
      
-    // transferência 
+    // Duas transferências realizadas
 
-        calculadora.transferencia(150.20);
+        calculadora.transferencia(1000.80);
         calculadora.transferencia(100.50);
     
-    // saque
+    // Cinco saques realizados que irão imprimir a taxa de 1,30 reais
 
         calculadora.saque(250.00);
         calculadora.saque(310.00);
@@ -20,7 +20,7 @@ public class Atv16 {
         imprimir(calculadora);
     }
 
-    // criando método para imprimir 
+    // Criando método para imprimir
 
     static public void imprimir(CalculadoraTaxas calculadora){
         System.out.printf("O total de taxas de transferência realizado foi: %.2f", calculadora.totalValorCobradoTransferencia);

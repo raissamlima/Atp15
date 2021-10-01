@@ -7,14 +7,14 @@ public class CalculadoraTaxas {
     public double totalValorCobradoTransferencia = 0;
     public double totalValorCobradoSaque = 0;
 
-    // criando o primeiro método de cálculo de taxas nas transferências
+    // Criando o primeiro método de cálculo de taxas nas transferências
 
     public void transferencia(double valor) {
         double taxa = multiplicar(valor, valorTaxa);
         totalValorCobradoTransferencia += taxa;
     }
 
-    // criando o segundo método de cálculo de taxas em saques
+    // Criando o segundo método de cálculo de taxas em saques
 
     public void saque(double valor) {
         double taxa = 0;
@@ -26,7 +26,7 @@ public class CalculadoraTaxas {
         totalValorCobradoSaque += taxa;
     }
 
-    // criando método para multiplicar o valor transferido pelo valor da taxa 
+    // Criando método para multiplicar o valor transferido pelo valor da taxa 
 
     public double multiplicar(double valorTransferido, double valorTaxa) {
         return valorTransferido * valorTaxa;

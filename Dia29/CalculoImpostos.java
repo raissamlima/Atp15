@@ -1,26 +1,31 @@
 package Dia29;
 
 public class CalculoImpostos {
-    private double taxaISS = 0.001/100;
-    private double taxaIOF = 0.002/100;
-    private double taxaIR = 0.005/100; 
-    public double valorRecebido = 0.0;
+    private double taxaISS = 0.0030 / 100;
+    private double taxaIOF = 0.002 / 100;
+    private double taxaIR = 0.005 / 100;
 
-    // Criando método de calcular a taxa ISS
+    // ISS
 
-    public double taxaISS(double valor){
-        return taxaISS * valorRecebido;
-    } 
+    public double ISS(double valor) {
+
+        double totalValorISS = taxaISS * valor;
+        return totalValorISS;
+    }
 
     // Criando método de Calcular a taxa IOF
 
-    public double taxaIOF(double valor){
-        return taxaIOF * valorRecebido;
+    public double IOF(double valor) {
 
+        double totalValorIOF = taxaIOF * valor;
+        return totalValorIOF;
     }
 
     // Criando método de Calcular a taxa IR
-    public double taxaIR(double valor){
-        return taxaIR * valorRecebido;
+
+    public double IR(double valor) {
+
+        double totalValorIR = taxaIR * valor;
+        return totalValorIR;
     }
-    }
+}
