@@ -12,7 +12,7 @@ public class ProdutoPrincipal {
     // Criando o método GET (inserir) e SET ("pegar informação") para todos os
     // atributos
 
-    public void setCodgio(int codigo) {
+    public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
 

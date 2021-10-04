@@ -5,7 +5,7 @@ public class ContaCorrente {
     // Criando as variáveis da Conta Corrente, todas privadas
 
     private int agencia;
-    private double numero;
+    private int numero;
     private int codigo_cliente;
     private double saldo;
 
@@ -18,10 +18,10 @@ public class ContaCorrente {
         return this.agencia;
     }
 
-    public void serNumero(double numero){
+    public void setNumero(int numero){
         this.numero = numero;
     }
-    public double getNumero(){
+    public int getNumero(){
         return this.numero;
     }
 
