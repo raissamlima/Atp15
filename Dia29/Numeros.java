@@ -15,5 +15,8 @@ public class Numeros {
         n_i[8] = 89;
         n_i[9] = 897;
 
+        for (int i = 0; i < n_i.length; i++) {
+            System.out.println(n_i[i]);
+        }
     }
 }
