@@ -1,6 +1,6 @@
 package HerançaDia05;
 
-public class Coordenador {
-    public String curso_coordenado;
-    public double bonus;
+public class Coordenador extends Funcionario {
+    private String curso_coordenado;
+    private double bonus;
 }

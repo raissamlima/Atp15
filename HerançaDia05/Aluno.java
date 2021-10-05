@@ -1,6 +1,6 @@
 package HerançaDia05;
 
-public class Aluno {
-    public String curso;
-    public String turma;
+public class Aluno extends Pessoa {
+    private String curso;
+    private String turma;
 }
