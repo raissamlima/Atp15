@@ -2,7 +2,7 @@ package HerançaDia05;
 
 public class Funcionario extends Pessoa {
     private double salario;
-    private String departamento;
+    private String departamento1;
 
     public double getSalario() {
         return salario;
@@ -11,10 +11,10 @@ public class Funcionario extends Pessoa {
         this.salario = salario;
     }
     
-    public String getDepartamento() {
-        return departamento;
+    public String getDepartamento1() {
+        return departamento1;
     }
-    public void setDepartamento(String departamento) {
-        this.departamento = departamento;
+    public void setDepartamento1(String departamento1) {
+        this.departamento1 = departamento1;
     }
 }
