@@ -17,8 +17,8 @@ public class Universidade {
         cord.setBonus(300.00);
 
         Aluno al = new Aluno();
-        al.setNome("Joaquim");
-        al.setSobrenome("Lima");
+        al.setNome("Cleiton");
+        al.setSobrenome("Rodrigues");
         al.setMatricula(3040);
         al.setCurso("JavaScript");
         al.setTurma("Turma A - Noturno");
